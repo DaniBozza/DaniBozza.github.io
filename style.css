@@ -58,4 +58,6 @@ ul li:nth-child(odd){
     font-weight: bold;
 }
 
-
+li:hover{
+    background-color: aquamarine;
+}
