@@ -59,5 +59,27 @@ ul li:nth-child(odd){
 }
 
 li:hover{
-    background-color: aquamarine;
+    background-color: #FFE8D6;
+    right: 100px;
+    font-size: larger;
 }
+.contatos{
+    padding-bottom: 60px;
+    list-style-type: none;
+}
+
+.linkedin{
+    width: 100px;
+}
+.github{
+    width: 100px;
+}
+
+.skills{
+    padding-bottom: 20px;
+}
+
+.contatos:hover{
+    box-shadow: inset;
+}
+
