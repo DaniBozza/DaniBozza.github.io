@@ -9,6 +9,7 @@ Body{
 
 h1{
     font-family: monospace;
+    padding-top: 40px;
 
 }
 
@@ -16,8 +17,11 @@ p, h1, h2{
     text-align: center;
 }
 
-h3{
+h3, h1{
     font-style: italic;
+    color: #c0886b;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .picture{
@@ -40,12 +44,12 @@ h3{
     height: 320px;
     position: relative;
     padding-top: 70px;
-    padding-bottom: 30px;
+    padding-bottom: 300px;
 }
 
 .descricao{
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 40%;
     right: 20px;
 
@@ -60,7 +64,6 @@ ul li:nth-child(odd){
 
 li:hover{
     background-color: #FFE8D6;
-    right: 100px;
     font-size: larger;
 }
 .contatos{
@@ -75,11 +78,65 @@ li:hover{
     width: 100px;
 }
 
-.skills{
-    padding-bottom: 20px;
+.skills, .hard, .skila{
+    padding-bottom: 100px;
 }
 
 .contatos:hover{
     box-shadow: inset;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+li.itemmenu{
+    color: black;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.itemmenu:hover{
+    background-color:initial;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    background: rgba(0, 0, 0, .05);
+}
+
+#header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #a5a58b;
+}
+
+#menu{
+    display: flex;
+    gap: .5rem;
+}
+
+#menu a{
+    display: block;
+    padding: 1rem;
+}
+
+#voltar{
+    font-size: 30px;
+    padding-right: 0px;
+    padding-bottom: 50px;
 }
 

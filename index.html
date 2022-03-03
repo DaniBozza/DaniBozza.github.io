@@ -7,22 +7,31 @@
     <title>Daniel Bozza</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <header id="header">
+    <a id="logo" href="">Portifólio</a>
+    <nav id="nav">
+      <ul id="menu">
+        <li class="itemmenu"><a href="#sobre">Sobre Mim</a></li>
+        <li class="itemmenu"><a href="#skills">Soft Skills</a></li>
+        <li class="itemmenu"><a href="#hard">Hard Skills</a></li>
+        <li class="itemmenu"><a href="#contatos">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
   <body>
-    <h4 class="menu" id="inicio">
-      <a href="#contatos">Contatos</a><br /><a href="#skills">Skills</a>
-    </h4>
     <div>
-      <h1>Daniel Bozza</h1>
+      <h1 id="sobre">Daniel Bozza</h1>
       <div class="image-container">
         <center>
           <img class="picture" src="DanielFoto.jpeg" />
         </center>
 
         <p class="descricao">
-          Sou paulistano de criação, mas nascido em Brasília. Formado em Engenharia Civil
-          pela Poli-USP, porém migrando 100% de carreira e atualmente com muito
-          orgulho estudante de Desenvolvimento Web estudante da Trybe. Possuo 3
-          paxões: minha esposa, minha futura filha e o
+          Sou paulistano de criação, mas nascido em Brasília. Formado em
+          Engenharia Civil pela Poli-USP, porém migrando 100% de carreira e
+          atualmente com muito orgulho estudante de Desenvolvimento Web
+          estudante da Trybe. Possuo 3 paxões: minha esposa, minha futura filha
+          e o
           <strong>Silvio Santos</strong>.<br /><br /><br />
         </p>
       </div>
@@ -35,8 +44,9 @@
         <li>Raciocínio lógico</li>
         <li>Empatia</li>
       </ul>
-
-      <h3>Hard Skills</h3>
+    </div>
+    <div class="hard">
+      <h3 id="hard">Hard Skills</h3>
 
       <ul>
         <li>Unix & Bash</li>
@@ -44,7 +54,8 @@
         <li>HTML</li>
         <li>CSS</li>
       </ul>
-
+    </div>
+    <div class="skila">
       <h3>Skills a Serem Desenvolvidas no Curso</h3>
 
       <ul>
@@ -54,12 +65,22 @@
         <li>Desenvolvimento de projetos</li>
       </ul>
     </div>
+
     <h3 id="contatos">Contatos:</h3>
     <ul class="contatos">
-      <li><a href="https://www.linkedin.com" target="_blank"><img class="linkedin" src="LinkedIn-Logo-1.png" /></a></li>
-      <li><a href="http://github.com/DaniBozza" target="_blank"><img class="github" src="GitHub-Emblem.png" /></a></li>
+      <li>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><img class="linkedin" src="LinkedIn-Logo-1.png"
+        /></a>
+      </li>
+      <li>
+        <a href="http://github.com/DaniBozza" target="_blank"
+          ><img class="github" src="GitHub-Emblem.png"
+        /></a>
+      </li>
     </ul>
-
-    <a href="#inicio">VOLTAR AO INÍCIO<br /><br /><br /></a>
+    <div id="voltar">
+      <a href="#header">VOLTAR AO INÍCIO</a>
+    </div>
   </body>
 </html>
